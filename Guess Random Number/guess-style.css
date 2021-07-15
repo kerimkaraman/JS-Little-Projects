@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.info {
+    margin-bottom: 50px;
+    text-align: center;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guess-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>SAYIYI TAHMİN ET</h1>
+        <p class="info">1-100 arasında bir sayı tahmin ediniz.
+            10 tahmin hakkınız var. Her tahmininizden sonra tahmininizin
+            sayıya olan uzaklığı büyüklük veya küçüklük olarak belirtilecektir.
+        </p>
+        <div class="guess-area">          
+             <input id="guess-input" type="text">
+             <button class="guess-button">Tahmin Et</button>
+        </div>
+        <div class="guesses-div">
+            <p class="guesses-p">
+
+            </p>
+        </div>
+        <div class="lowOrHighDiv">
+            <p class="lowOrHigh"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
