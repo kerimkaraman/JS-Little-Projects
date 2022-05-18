@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  background-color: #575E82;
+  padding-bottom: 2rem;
+  width: 80%;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+.container .general-header {
+  text-align: center;
+}
+
+.container .bmi-area {
+  background-color: #C6C2C5;
+  width: 80%;
+  border-radius: 30px;
+  margin: 2rem auto 0rem auto;
+  padding: 3rem 2rem;
+}
+
+.container .bmi-area .value-areas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+}
+
+.container .bmi-area .value-areas .height-area, .container .bmi-area .value-areas .weight-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 4rem;
+}
+
+.container .bmi-area .value-areas .height-area label, .container .bmi-area .value-areas .weight-area label {
+  font-size: 2rem;
+}
+
+.container .bmi-area .value-areas .height-area input, .container .bmi-area .value-areas .weight-area input {
+  font-size: 2rem;
+  caret-color: #575E82;
+}
+
+.container .bmi-area .button-area {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 5rem auto;
+}
+
+.container .bmi-area .button-area button {
+  background-color: #575E82;
+  color: white;
+  border: 1px solid #575E82;
+  padding: 1rem 2rem;
+  -webkit-transition: background-color 0.25s, color 0.25s;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+.container .bmi-area .button-area button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #575E82;
+}
+
+.container .bmi-area .result-area {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.container .bmi-area .result-area p {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

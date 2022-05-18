@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+// font weigths are 400 and 500
+
+// Colors
+
+$clr-blue: #575E82;
+$clr-grey: #C6C2C5;
+
+// texts will be black
+
+.container {
+    background-color: $clr-blue;
+    padding-bottom: 2rem;
+    width: 80%;
+    padding-top: 1rem;
+    margin: 0 auto;
+    .general-header {
+        text-align: center;
+    }
+    .bmi-area {
+        background-color: $clr-grey;
+        width: 80%;
+        border-radius: 30px;
+        margin: 2rem auto 0rem auto;
+        padding: 3rem 2rem;
+        .value-areas {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            .height-area, .weight-area{
+                display: flex;
+                justify-content: center;
+                gap: 4rem;
+                label{
+                    font-size: 2rem;
+                }
+                input {
+                    font-size: 2rem;
+                    caret-color: $clr-blue;
+                }
+            }
+        }
+
+        .button-area {
+            width: max-content;
+            margin: 5rem auto;
+            button {
+                background-color: $clr-blue;
+                color: white;
+                border: 1px solid $clr-blue;
+                padding: 1rem 2rem;
+                transition: background-color 0.25s, color 0.25s;
+                &:hover {
+                    cursor: pointer;
+                    background-color: #fff;
+                    color: $clr-blue;
+                }
+            }
+        }
+
+        .result-area {
+            margin-top: 5rem;
+            text-align: center;
+            p {
+                margin-top: 2rem;
+                font-size: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+$clr-black: #747474;
+$clr-blue: #A4BBC7;
+
+.container {
+    background-color: $clr-black;
+    padding: 2rem;
+    display: flex;  
+    margin: 0 auto;
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-evenly;
+    .left-side {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 10px;
+        width: 40%;
+        .bill-area, .tip-area, .people-area {
+            display: flex;
+            gap: 2rem;
+            padding: 1rem 2rem;
+        }
+        .calculate-area {
+            padding-top: 3rem;
+            button {
+                text-align: center;
+                background-color: $clr-blue;
+                color: white;
+                padding: 0.5rem 1.5rem;
+                display: block;
+                border-radius: 10px;
+                margin: 0 auto;
+                border: none;
+                box-shadow: none;
+                transition: box-shadow 0.25s;
+                &:hover {
+                    box-shadow:
+                    2.5px 4.5px 3.6px rgba(0, 0, 0, 0.017),
+                    6.9px 12.5px 10px rgba(0, 0, 0, 0.025),
+                    16.6px 30.1px 24.1px rgba(0, 0, 0, 0.033),
+                    55px 100px 80px rgba(0, 0, 0, 0.05);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    .right-side {
+        background-color: $clr-blue;
+        width: 50%;
+        padding: 2rem;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .tip-amount-area, .bill-amount-area {
+            display: flex;
+            justify-content: left;
+            gap: 20rem;
+        }
+        .reset-area {
+            padding-top: 2.5rem;
+            button {
+                display: block;
+                margin: 0 auto;
+                padding: 0.5rem 2rem;
+                background-color: $clr-black;    
+                color: white;
+                border: none;
+                border-radius: 10px;
+                &:hover {
+                    cursor: pointer;
+                    box-shadow:
+                    2.5px 4.5px 3.6px rgba(0, 0, 0, 0.017),
+                    6.9px 12.5px 10px rgba(0, 0, 0, 0.025),
+                    16.6px 30.1px 24.1px rgba(0, 0, 0, 0.033),
+                    55px 100px 80px rgba(0, 0, 0, 0.05);
+                }
+            }
+        }
+    }
+}

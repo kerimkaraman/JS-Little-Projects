@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5rem auto 0rem auto;
+}
+
+.container .player-1-area h1 {
+  margin-bottom: 2rem;
+}
+
+.container .player-2-area h1 {
+  margin-bottom: 2rem;
+}
+
+.bottom-area {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.bottom-area h2 {
+  margin-bottom: 2rem;
+}
+
+.bottom-area button {
+  background-color: #007BFF;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: white;
+  -webkit-transition: color 0.5s, background-color 0.5s;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.bottom-area .active:hover {
+  cursor: pointer;
+  color: #007BFF;
+  background-color: #fff;
+  border: 1px solid #007BFF;
+}
+
+.bottom-area .disabled {
+  background-color: grey;
+}
+
+.bottom-area .disabled:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

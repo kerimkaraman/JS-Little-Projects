@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  background-color: #747474;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  gap: 2rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .left-side {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.container .left-side .bill-area, .container .left-side .tip-area, .container .left-side .people-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.container .left-side .calculate-area {
+  padding-top: 3rem;
+}
+
+.container .left-side .calculate-area button {
+  text-align: center;
+  background-color: #A4BBC7;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  display: block;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: -webkit-box-shadow 0.25s;
+  transition: -webkit-box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
+}
+
+.container .left-side .calculate-area button:hover {
+  -webkit-box-shadow: 2.5px 4.5px 3.6px rgba(0, 0, 0, 0.017), 6.9px 12.5px 10px rgba(0, 0, 0, 0.025), 16.6px 30.1px 24.1px rgba(0, 0, 0, 0.033), 55px 100px 80px rgba(0, 0, 0, 0.05);
+          box-shadow: 2.5px 4.5px 3.6px rgba(0, 0, 0, 0.017), 6.9px 12.5px 10px rgba(0, 0, 0, 0.025), 16.6px 30.1px 24.1px rgba(0, 0, 0, 0.033), 55px 100px 80px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.container .right-side {
+  background-color: #A4BBC7;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.container .right-side .tip-amount-area, .container .right-side .bill-amount-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  gap: 20rem;
+}
+
+.container .right-side .reset-area {
+  padding-top: 2.5rem;
+}
+
+.container .right-side .reset-area button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  background-color: #747474;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.container .right-side .reset-area button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 2.5px 4.5px 3.6px rgba(0, 0, 0, 0.017), 6.9px 12.5px 10px rgba(0, 0, 0, 0.025), 16.6px 30.1px 24.1px rgba(0, 0, 0, 0.033), 55px 100px 80px rgba(0, 0, 0, 0.05);
+          box-shadow: 2.5px 4.5px 3.6px rgba(0, 0, 0, 0.017), 6.9px 12.5px 10px rgba(0, 0, 0, 0.025), 16.6px 30.1px 24.1px rgba(0, 0, 0, 0.033), 55px 100px 80px rgba(0, 0, 0, 0.05);
+}
+/*# sourceMappingURL=style.css.map */
